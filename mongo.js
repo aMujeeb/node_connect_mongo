@@ -1,7 +1,6 @@
 const mongoClient = require('mongodb').MongoClient;
 
-const url = 'treterterte';
-
+const url = 'mongodb+srv://Cluster10220:Ql1nfUdqSGZ8@cluster10220.xuarksj.mongodb.net/NoteDataBase?retryWrites=true&w=majority';
 
 const createProduct = async (req, res, next) => {
     const body = req.body;
